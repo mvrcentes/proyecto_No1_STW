@@ -40,10 +40,11 @@ function App() {
                         </button>
                     </div>
                 </div>
-
-                <img className="imagenes" src={first} alt="" />
-                <img src={first_2} alt="" />
-                <img src={first_3} alt="" />
+                <div className="img-container">
+                    <img className="fondo" src={first_2} alt="" />
+                    <img className="izquierda" src={first} alt="" />
+                    <img className="derecha" src={first_3} alt="" />
+                </div>
             </div>
 
             <Card
