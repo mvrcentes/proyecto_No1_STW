@@ -1,0 +1,26 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-right: 70px;
+}
+
+.about p {
+    color: #5765f2;
+    font-size: 15px;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 15px;
+    gap: 15px;
+}
+
+.column p {
+    color: #fff;
+    font-size: 15px;
+}
