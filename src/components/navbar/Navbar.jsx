@@ -1,6 +1,7 @@
-import './Navbar.css'
+import React from "react"
+import "./Navbar.css"
 
-import logo from '../../assets/logo.svg'
+import logo from "../../assets/logo.svg"
 
 export const Navbar = () => {
   return (
@@ -11,7 +12,7 @@ export const Navbar = () => {
         </div>
 
         <div className="menu">
-            <ul className='menu-link'>
+            <ul className="menu-link">
                 <li>Download</li>
                 <li>Nitro</li>
                 <li>Discover</li>
@@ -23,7 +24,7 @@ export const Navbar = () => {
         </div>
 
         <div className="openDiscord">
-            <button className='openDiscorButton'>Open Discord</button>
+            <button className="openDiscorButton">Open Discord</button>
         </div>
     </div>
   )

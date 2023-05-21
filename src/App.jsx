@@ -1,8 +1,8 @@
-import { useState } from "react"
+import React from "react"
 import "./App.css"
 
 //components
-import Navbar from "./components/navbar/Navbar"
+import { Navbar } from "./components/navbar/Navbar"
 import Card from "./components/Card/Card"
 import About from "./components/About/About"
 
@@ -24,8 +24,6 @@ import socialMedia from "./assets/social_media.png"
 import Logo from "./assets/logo.svg"
 
 function App() {
-    const firstimgs = [first, first_2, first_3]
-
     return (
         <div className="App">
             <Navbar />
@@ -58,21 +56,24 @@ function App() {
                 imgSrc={dos}
                 position="right"
                 title="Create an invite-only place where you belong"
-                body="Discord servers are organized into topic-based channels where you can collaborate, share, and just talk about your day without clogging up a group chat."
+                body="Discord servers are organized into topic-based channels where you can 
+                collaborate, share, and just talk about your day without clogging up a group chat."
             />
 
             <Card
                 imgSrc={tres}
                 position="left"
                 title="Where hanging out is easy"
-                body="Grab a seat in a voice channel when you’re free. Friends in your server can see you’re around and instantly pop in to talk without having to call."
+                body="Grab a seat in a voice channel when you’re free. Friends in your 
+                server can see you’re around and instantly pop in to talk without having to call."
             />
 
             <Card
                 imgSrc={cuatro}
                 position="right"
                 title="From few to a fandom"
-                body="Get any community running with moderation tools and custom member access. Give members special powers, set up private channels, and more."
+                body="Get any community running with moderation tools and 
+                custom member access. Give members special powers, set up private channels, and more."
             />
 
             <div className="just-chillin">
